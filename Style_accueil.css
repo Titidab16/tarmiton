@@ -1,0 +1,99 @@
+html, body {   
+    height: 100%;
+    background-color: white;
+    border: 0px solid transparent;
+    font-size: 1em;
+    margin: 0px 0px 0px 0px;
+    min-height: 100%;
+    padding: 0px 0px 0px 0px;
+    width: 100%;
+    font-family:cursive;
+}
+
+.layout-main {
+    height: 100%;
+    margin: 0px auto 0px auto;
+    min-height: 100%;
+    width: 1024px;
+}
+
+.main {
+   height: 100%;
+   min-height: 100%;
+}
+
+.layout-menu, .layout-content {
+   display: inline-block;
+   height: 100%;
+   min-height: 100%;
+   vertical-align: top;
+}
+
+.layout-menu {
+   color: white;
+   background-color: darkred;
+   width: 20%;
+}
+
+.layout-content {
+   color: black;
+   background-color: whitesmoke;
+   width: 70%;
+}
+
+.menu, .content, {
+   padding: 5px 5px 5px 5px;
+}
+
+.menu h1 {
+    font-size: 24px;
+    text-align: center;    
+}
+
+.menu li {
+   list-style: none;
+}
+
+.menu li a {
+   color: white;
+}
+
+.menu li a:before {
+   content: "> ";
+}
+
+.menu li a:hover {
+   color: black;
+}
+
+.content .content-item {
+   border-top: 1px solid grey;
+   clear: both;
+   margin: 0px auto 0px auto;
+   padding: 15px 0px 15px 0px;
+   text-align: center;
+   width: 542px;
+}
+
+.content .content-item:first-child {
+   border: 0px solid transparent;
+}
+
+.content .content-item h1 {
+   font-size: 24px;
+}
+
+.content .content-item p.description {
+   font-size: 12px;
+   font-style: italic;
+}
+
+.content .content-item div.article {
+   text-align: justify;
+}
+
+.content .content-item img.article-image {
+   float: left;
+   padding: 0px 25px 25px 0px;
+   width: 96px;
+}
