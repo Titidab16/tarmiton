@@ -1,5 +1,5 @@
 html, body {
-    background-color: lemonchiffon;
+    background-color: whitesmoke;
     border: 5px solid transparent;
     font-family:cursive;
 }
@@ -9,4 +9,23 @@ div.type {
     padding-bottom: 5px;
     padding-right: 60px;
     padding-top: 5px;
+}
+header{
+    height: inherit
+}
+header > h1 {
+    margin-bottom: 0;
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+    color: coral;
+}
+h2{
+    text-align: center;
+
+}
+h3{
+    font-size: 30px;
+    text-underline-position: below;
 }
